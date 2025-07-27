@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Murudo – Where Love Finds You</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Murudo</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Love Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Where Love Finds You ❤️</h1>
+                <p>Experience the magic of AI-powered matchmaking and real love stories.</p>
+                <input type="text" id="nameInput" placeholder="Enter your name" />
+                <button onclick="saveName()">Get Greeted</button>
+                <p id="greeting"></p>
+            </div>
+            <img src="img/hero.jpg" alt="Couple enjoying sunset" loading="lazy" />
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Why Choose Murudo?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>AI Matchmaking</h3>
+                    <p>Smart love suggestions tailored just for you based on personality and preferences.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Video Profiles</h3>
+                    <p>See the real person behind the profile with short video intros.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Blind Chat Mode</h3>
+                    <p>Connect and chat anonymously before revealing your identity.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Preview -->
+        <section class="blog-preview">
+            <h2>Latest Love Confessions</h2>
+            <div class="blog-cards" id="blogPreviewContainer">
+                <!-- JS will inject preview here -->
+            </div>
+            <a href="blog.html" class="btn">Read More Stories</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Murudo. Created by Nyasha Gumboguru | <a href="references.html">References</a></p>
+    </footer>
+</body>
+
+</html>

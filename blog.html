@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Murudo – Love Confessions</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Murudo</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" class="active">Love Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-header">
+            <h1>Love Stories from Our Community</h1>
+            <p>Real people. Real connections. Read how Murudo helped spark something beautiful.</p>
+        </section>
+
+        <section class="blog-filter">
+            <label for="yearFilter">Filter by Year:</label>
+            <select id="yearFilter">
+                <option value="all">All</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+            </select>
+        </section>
+
+        <section class="blog-cards" id="blogContainer">
+            <!-- JavaScript will inject blog cards here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Murudo. Created by Nyasha Gumboguru | <a href="references.html">References</a></p>
+    </footer>
+</body>
+
+</html>
